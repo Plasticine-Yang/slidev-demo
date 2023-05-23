@@ -211,8 +211,6 @@ export function setupPlasticineMonitor() {
     projectId: '64607b2af3f06f90577fed12',
     enableLogger: true,
     sender: xhrSender,
-    env: import.meta.env.MODE,
-    release: pkg.version,
   })
 }
 ```
